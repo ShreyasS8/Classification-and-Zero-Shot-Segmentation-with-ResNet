@@ -56,22 +56,22 @@ This repository contains the PyTorch implementation of a custom Residual Network
 Below are the images included with this README (placed in `images/`):
 
 **Brookes Birdwing (original)**  
-![Brookes Birdwing](/images/brookes_birdwing.jpg)
+![Brookes Birdwing](images/brookes_birdwing.jpg)
 
 **Brookes Birdwing (RGB / processed)**  
-![Brookes Birdwing RGB](/images/brookes_birdwing_rgb.jpg)
+![Brookes Birdwing RGB](images/brookes_birdwing_rgb.jpg)
 
 **African Giant Swallowtail (original)**  
-![African Giant Swallowtail](/images/african_giant_swallowtail.jpg)
+![African Giant Swallowtail](images/african_giant_swallowtail.jpg)
 
 **African Giant Swallowtail (RGB / processed)**  
-![African Giant Swallowtail RGB](/images/african_giant_swallowtail_rgb.jpg)
+![African Giant Swallowtail RGB](images/african_giant_swallowtail_rgb.jpg)
 
 **Atala (original)**  
-![Atala](/images/atala.jpg)
+![Atala](images/atala.jpg)
 
 **Atala (RGB / processed)**  
-![Atala RGB](/images/atala_rgb.jpg)
+![Atala RGB](images/atala_rgb.jpg)
 
 > Note: When viewing this README on GitHub, ensure the `images/` folder is included in the repo at the same level as `README.md` so the images render correctly.
 
@@ -117,23 +117,6 @@ Outputs produced by `evaluate.py`:
 - `submission.csv` — predicted class for each test image.  
 - `seg_maps/` — generated segmentation masks (one per test image).
 
----
-
-## File Structure
-```
-├── checkpoints/          # Directory to save model weights
-├── dataset/
-│   ├── train/
-│   └── test/
-├── images/               # Example images included in this README
-├── seg_maps/             # Output directory for segmentation masks
-├── train.py              # Script to train the ResNet classifier
-├── evaluate.py           # Script to run inference and segmentation
-├── requirements.txt      # Project dependencies
-└── README.md             # This file
-```
-
----
 
 ## Reproducibility
 - All experiments in the original repository were seeded. For exact replication, set seeds for `random`, `numpy`, and `torch` and use deterministic flags as needed.
