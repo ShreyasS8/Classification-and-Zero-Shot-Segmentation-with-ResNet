@@ -53,7 +53,7 @@ This repository contains the PyTorch implementation of a custom Residual Network
 ---
 
 ## Example images
-Below are the images included with this README (placed in `images/`):
+Below are the images included with this README (placed in `Images/`):
 
 **Brookes Birdwing (original)**  
 ![Brookes Birdwing](Images/brookes_birdwing.jpg)
